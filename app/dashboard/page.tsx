@@ -1,9 +1,11 @@
-import { Navigation } from "@/components/navigation"
-import { DashboardHeader } from "@/components/dashboard/dashboard-header"
-import { DashboardStats } from "@/components/dashboard/dashboard-stats"
-import { RecentActivity } from "@/components/dashboard/recent-activity"
-import { UpcomingAppointments } from "@/components/dashboard/upcoming-appointments"
-import { HealthInsights } from "@/components/dashboard/health-insights"
+"use client";
+
+import { Navigation } from "@/components/navigation";
+import { DashboardHeader } from "@/components/dashboard/dashboard-header";
+import { DashboardStats } from "@/components/dashboard/dashboard-stats";
+import { RecentActivity } from "@/components/dashboard/recent-activity";
+import { UpcomingAppointments } from "@/components/dashboard/upcoming-appointments";
+import { HealthInsights } from "@/components/dashboard/health-insights";
 
 export default function DashboardPage() {
   return (
@@ -25,5 +27,5 @@ export default function DashboardPage() {
         </div>
       </div>
     </main>
-  )
+  );
 }
