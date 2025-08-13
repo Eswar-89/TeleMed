@@ -7,8 +7,8 @@ const nextConfig = {
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
 
-  basePath: isProd ? "/telemedicine" : "",
-  assetPrefix: isProd ? "/telemedicine/" : "",
+  basePath: isProd ? "/TeleMed" : "",
+  assetPrefix: isProd ? "/TeleMed/" : "",
 };
 
 export default nextConfig;
